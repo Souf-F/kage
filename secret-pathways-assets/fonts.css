@@ -1,0 +1,30 @@
+/* Onest — police principale */
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@300;400;500;600;700&display=swap');
+
+/* NotoJP — kanji et caracteres japonais */
+@font-face {
+  font-family: 'NotoJP';
+  src: url('https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-jp@5.0.12/files/noto-sans-jp-japanese-400-normal.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-jp@5.0.12/files/noto-sans-jp-all-400-normal.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoJP';
+  src: url('https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-jp@5.0.12/files/noto-sans-jp-japanese-300-normal.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-jp@5.0.12/files/noto-sans-jp-all-300-normal.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Wordmark — titre KAGE en canvas 3D (Cormorant Garamond comme approximation) */
+@font-face {
+  font-family: 'Wordmark';
+  src: url('https://cdn.jsdelivr.net/npm/@fontsource/cormorant-garamond@5.1.0/files/cormorant-garamond-latin-600-normal.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: block;
+}
